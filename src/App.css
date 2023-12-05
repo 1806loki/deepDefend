@@ -3,31 +3,35 @@
   padding: 0%;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
-.sidebar {
+.container {
   display: flex;
 }
 
 main {
-  width: 100%;
+  width: auto;
 }
 
-.sidebar .container {
+.container .sidebar {
+  position: fixed;
+  z-index: 999;
   height: 100vh;
   background: #15191b;
   width: 300px;
   transition: all 0.5s;
 }
 
-.sidebar .container .topSection {
+.container .sidebar .topSection {
   display: flex;
   color: white;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 20px;  transition: all 0.5s;
+
 }
 
-.sidebar .container .topSection .bars {
+.container .sidebar .topSection .bars {
   margin-left: 20px;
 }
 
