@@ -1,0 +1,154 @@
+body {
+  background: #000;
+}
+
+.cymulate {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.cymulate .layer-0 {
+  height: 2000px;
+  width: 2000px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -65%;
+  left: -25%;
+}
+.cymulate .layer-0 .electron-1 {
+  z-index: 99;
+  position: absolute;
+  left: 80%;
+  top: 25%;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cymulate .layer-0 .electron-2 {
+  z-index: 99;
+  position: absolute;
+  left: 85%;
+  top: 45%;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cymulate .layer-0 .electron-3 {
+  z-index: 99;
+  position: absolute;
+  left: 85%;
+  top: 50%;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cymulate .layer-0 .layer-1 {
+  width: 1600px;
+  height: 1600px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  border: 100px solid black;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cymulate .layer-0 .layer-1 .electron-1 {
+  z-index: 99;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cymulate .layer-0 .layer-1 .electron-2 {
+  z-index: 99;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cymulate .layer-0 .layer-1 .layer-2 {
+  width: 1000px;
+  height: 1000px;
+  border: 100px solid black;
+  background: green;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cymulate .layer-0 .layer-1 .layer-2 .electron-1 {
+  z-index: 99;
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cymulate .layer-0 .layer-1 .layer-2 .electron-2 {
+  z-index: 99;
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  background: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cymulate .layer-0 .layer-1 .layer-3 {
+  width: 500px;
+  height: 500px;
+  background: blue;
+  border: 100px solid black;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 10px white;
+}

@@ -25,8 +25,8 @@ const Sidebar = ({ children }) => {
       icon: <BsSpeedometer2 />,
     },
     {
-      path: "/Metrics",
-      name: "Metrics",
+      path: "/Cymulate",
+      name: "Cymulate Dashboard",
       icon: <PiDotsSixBold />,
     },
     {
